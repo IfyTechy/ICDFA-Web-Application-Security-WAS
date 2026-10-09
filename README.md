@@ -1,6 +1,6 @@
-# Web Application Security — Lab Portfolio
+# Web Application Security - Lab Portfolio
 
-Twenty-five lab reports from the International Cybersecurity and Digital Forensics Academy (ICDFA), Web Application Security & Digital Forensics phase — modules BVWS101 to BVWS103 plus BVWS105 and BVWS106, completed October 2025 to April 2026. Every report is committed in this repository under [`reports/`](reports/), so the portfolio is fully self-contained.
+Twenty-five lab reports from the International Cybersecurity and Digital Forensics Academy (ICDFA), Web Application Security & Digital Forensics phase - modules BVWS101 to BVWS103 plus BVWS105 and BVWS106, completed October 2025 to April 2026. Every report is committed in this repository under [`reports/`](reports/), so the portfolio is fully self-contained.
 
 > **Scope note:** all exercises were performed on ICDFA-authorised lab environments and intentionally vulnerable local targets. No production, third-party or unauthorised system was ever tested.
 
@@ -8,12 +8,12 @@ Twenty-five lab reports from the International Cybersecurity and Digital Forensi
 
 - **Linux system administration:** users and groups, file permissions, process control, Bash scripting and automation
 - **Networking:** OSI model, IP addressing and subnetting, reconnaissance and service/vulnerability mapping with nmap
-- **Web application security:** OWASP Top 10 exploitation and remediation — SQL injection, XSS, command injection, insecure deserialization, security misconfiguration, sensitive data exposure, logging gaps
-- **Penetration testing:** OWASP penetration testing methodology — scoping, discovery, exploitation and structured reporting
-- **Secure development:** secure coding practices and input validation — parameterised queries, output encoding, allow-list validation
+- **Web application security:** OWASP Top 10 exploitation and remediation - SQL injection, XSS, command injection, insecure deserialization, security misconfiguration, sensitive data exposure, logging gaps
+- **Penetration testing:** OWASP penetration testing methodology - scoping, discovery, exploitation and structured reporting
+- **Secure development:** secure coding practices and input validation - parameterised queries, output encoding, allow-list validation
 - **Lab environments:** Kali Linux, XAMPP web stacks, isolated virtual lab networks
 
-## BVWS101 — Foundations: Linux, Networking & Bash Scripting
+## BVWS101 - Foundations: Linux, Networking & Bash Scripting
 
 | # | Lab | Date | Summary | Report |
 |---|-----|------|---------|--------|
@@ -23,7 +23,7 @@ Twenty-five lab reports from the International Cybersecurity and Digital Forensi
 | 4 | IP addressing lab exercise | 2025-10-27 | Calculated and validated IP addressing and subnetting schemes for lab networks. | [PDF](reports/BVWS101/04-ip-addressing-lab.pdf) |
 | 5 | Bash scripting lab exercise | 2025-11-03 | Automated routine administration tasks with shell scripts. | [PDF](reports/BVWS101/05-bash-scripting-lab.pdf) |
 
-## BVWS102 — Web Application Security Essentials
+## BVWS102 - Web Application Security Essentials
 
 | # | Lab | Date | Summary | Report |
 |---|-----|------|---------|--------|
@@ -36,7 +36,7 @@ Twenty-five lab reports from the International Cybersecurity and Digital Forensi
 | 7 | Nmap mastery and vulnerability mapping | 2026-01-04 | Produced host, service and vulnerability maps with nmap against lab targets. | [PDF](reports/BVWS102/07-nmap-mastery-and-vulnerability-mapping.pdf) |
 | 8 | Final project: web application security | 2025-12-04 | End-to-end assessment of a lab web application combining reconnaissance, enumeration and a findings report. | [PDF](reports/BVWS102/08-final-project-web-application-security.pdf) |
 
-## BVWS103 — OWASP Top 10: Vulnerability & Exploitation Techniques
+## BVWS103 - OWASP Top 10: Vulnerability & Exploitation Techniques
 
 | # | Lab | Date | Summary | Report |
 |---|-----|------|---------|--------|
@@ -51,17 +51,17 @@ Twenty-five lab reports from the International Cybersecurity and Digital Forensi
 | 9 | Using components with known vulnerabilities | 2026-02-08 | Exploited a component with published CVEs and documented the patching path. | [PDF](reports/BVWS103/09-known-vulnerable-components.pdf) |
 | 10 | Insufficient logging & monitoring | 2026-02-15 | Demonstrated attacker actions escaping detection and specified monitoring improvements. | [PDF](reports/BVWS103/10-insufficient-logging-and-monitoring.pdf) |
 
-## BVWS105 — OWASP Penetration Testing Methodology
+## BVWS105 - OWASP Penetration Testing Methodology
 
 | # | Lab | Date | Summary | Report |
 |---|-----|------|---------|--------|
-| 1 | OWASP penetration testing methodology | 2026-04-09 | Applied the OWASP penetration testing methodology — scoping, discovery, exploitation and reporting — against an authorised lab target. | [PDF](reports/BVWS105/01-owasp-penetration-testing-methodology.pdf) |
+| 1 | OWASP penetration testing methodology | 2026-04-09 | Applied the OWASP penetration testing methodology - scoping, discovery, exploitation and reporting - against an authorised lab target. | [PDF](reports/BVWS105/01-owasp-penetration-testing-methodology.pdf) |
 
-## BVWS106 — Secure Coding Practices & Input Validation
+## BVWS106 - Secure Coding Practices & Input Validation
 
 | # | Lab | Date | Summary | Report |
 |---|-----|------|---------|--------|
-| 1 | Secure coding practices and input validation | 2026-04-29 | Applied secure coding controls — parameterised queries, output encoding and allow-list input validation — to remediate injection-class flaws in a lab application. | [PDF](reports/BVWS106/01-secure-coding-practices-and-input-validation.pdf) |
+| 1 | Secure coding practices and input validation | 2026-04-29 | Applied secure coding controls - parameterised queries, output encoding and allow-list input validation - to remediate injection-class flaws in a lab application. | [PDF](reports/BVWS106/01-secure-coding-practices-and-input-validation.pdf) |
 
 ## Repository layout
 
@@ -76,10 +76,10 @@ reports/
 
 ## Related work
 
-- [PortSwigger Web Security Academy writeups](https://github.com/IfyTechy/portswigger-web-security-academy-writeups) — XSS and CSRF lab walkthroughs
-- [SBT-DF203 Lab 3 — SYN Flood Attack Investigation Using tshark](https://github.com/IfyTechy/SBT-DF203_Lab3_SYN-Flood-Attack-Investigation-Using-tshark)
-- [CIP-B102 Lab 3 — Data Carving with XXD, Binwalk and Scalpel](https://github.com/IfyTechy/CIP-B102_Lab3_Data-Carving-with-XXD-Binwalk-and-Scalpel)
+- [PortSwigger Web Security Academy writeups](https://github.com/IfyTechy/portswigger-web-security-academy-writeups) - XSS and CSRF lab walkthroughs
+- [SBT-DF203 Lab 3 - SYN Flood Attack Investigation Using tshark](https://github.com/IfyTechy/SBT-DF203_Lab3_SYN-Flood-Attack-Investigation-Using-tshark)
+- [CIP-B102 Lab 3 - Data Carving with XXD, Binwalk and Scalpel](https://github.com/IfyTechy/CIP-B102_Lab3_Data-Carving-with-XXD-Binwalk-and-Scalpel)
 
 ## Author
 
-Nebeuwa Ifeanyichukwu Raphael — digital forensics and cyber-defence trainee, International Cybersecurity and Digital Forensics Academy (ICDFA).
+Nebeuwa Ifeanyichukwu Raphael - digital forensics and cyber-defence trainee, International Cybersecurity and Digital Forensics Academy (ICDFA).
